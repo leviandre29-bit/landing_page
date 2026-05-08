@@ -19,6 +19,10 @@ body {
     flex: 1;
 }
 
+.logo {
+    font-size: 24px;
+}
+
 a {
     color: #E5E7EB;
     text-decoration: none;
@@ -41,7 +45,7 @@ a {
 }
 
 .hero-content {
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     margin: 0 90px;
     gap: 20px;
@@ -104,4 +108,39 @@ a {
     border: 0;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.content-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    height: 400px
+}
+
+.info-text {
+    font-size: 36px;
+    margin: 0;
+    font-weight: 900;
+}
+
+.content-01-center {
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.content-center-container {
+    display: flex;
+    width: 160px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.bluecase-placeholder {
+    height: 160px;
+    width: 160px;
+    border-radius: 12px;
+    border: 3px solid #3882f6;
 }
